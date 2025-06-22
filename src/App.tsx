@@ -1,10 +1,13 @@
 import './App.css'
+import FirstPlantilla from './components/plantillasTypePeriodico/FirstPlantilla'
 
 function App() {
   
 
   return (
-    <h1 className='text-center text-2xl'>Bolas de Algodon</h1>
+  <div >
+   <FirstPlantilla/>
+  </div>
   )
 }
 

@@ -1,2 +1,19 @@
 
 @import "tailwindcss";
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Old London';
+  src: url('./src/assets/fonts/OldLondon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.h1-gotico {
+  font-family: 'Old London', serif;
+}
+
+

@@ -11,9 +11,20 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Animeace';
+  src: url('./src/assets/fonts/animeace2_ital.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .h1-gotico {
   font-family: 'Old London', serif;
+}
+
+.p-funny{
+ font-family: 'Animeace', serif;
 }
 
 

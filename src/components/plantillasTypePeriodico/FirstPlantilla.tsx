@@ -89,6 +89,7 @@ export default function FirstPlantilla() {
             amet consectetur adipisicing elit. Excepturi molestias, ullam accusamus consectetur sequi doloribus vero obcaecati
             odit. Ducimus laboriosam soluta tempore sapiente ex libero aut, et sed ut officiis!
           </p>
+          
         </div>
 
         <div>
@@ -99,6 +100,7 @@ export default function FirstPlantilla() {
             amet consectetur adipisicing elit. Excepturi molestias, ullam accusamus consectetur sequi doloribus vero obcaecati
             odit. Ducimus laboriosam soluta tempore sapiente ex libero aut, et sed ut officiis!
           </p>
+          
         </div>
       </div>
 

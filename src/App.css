@@ -25,6 +25,17 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Some Time Later';
+  src: url('./src/assets/fonts/KGInimitableOriginal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.h1-inicio{
+  font-family:  'Some Time Later' ;
+}
 
 .h1-gotico {
   font-family: 'Old London', serif;
@@ -144,6 +155,26 @@ body {
   max-width: 600px;
   height: auto;
 }
+
+
+
+
+.scrolling-columns p {
+  animation: scrollUp 30s linear infinite;
+  margin: 0;
+  /* Para que el texto ocupe todo el ancho de las columnas */
+  width: 100%;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
 
 
 

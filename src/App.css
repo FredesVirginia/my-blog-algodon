@@ -19,6 +19,13 @@ body {
 }
 
 @font-face {
+  font-family: 'Edu';
+  src: url('./src/assets/fonts/LoveYaLikeASisterSolid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Comic Book';
   src: url('./src/assets/fonts/Comic Book.otf') format('truetype');
   font-weight: normal;
@@ -35,6 +42,10 @@ body {
 
 .h1-inicio{
   font-family:  'Some Time Later' ;
+}
+
+.h1-edu{
+  font-family:  'Edu' ;
 }
 
 .h1-gotico {

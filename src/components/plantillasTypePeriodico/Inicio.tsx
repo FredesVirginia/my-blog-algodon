@@ -5,8 +5,10 @@ import { PiPottedPlantBold } from "react-icons/pi";
 import { CgSmileMouthOpen } from "react-icons/cg";
 import { FaLocationArrow } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function Inicio() {
+  const navigate = useNavigate();
   return (
     <div className="relative w-full text-white p-4">
       {/* Imagen de fondo ocupando toda la pantalla */}
@@ -110,7 +112,9 @@ export default function Inicio() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.5 }}
         >
-          <button className="-mt-10 flex  items-center gap-4 bg-white/10 backdrop-blur-md py-2 px-4 rounded-2xl cursor-pointer ">Una mente inquieta escribe así <FaLocationArrow/></button>
+          <button  onClick={()=> {
+            navigate("/inicio")
+          }} className="-mt-10 flex  items-center gap-4 bg-white/10 backdrop-blur-md py-2 px-4 rounded-2xl cursor-pointer ">Una mente inquieta escribe así <FaLocationArrow/></button>
         </motion.div>
         <motion.div
           className="flex justify-center mt-16"
